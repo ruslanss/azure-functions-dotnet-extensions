@@ -32,5 +32,7 @@ namespace Microsoft.Azure.Functions.Samples.DependencyInjectionBasic
             FunctionsHostBuilderContext context = builder.GetContext();
             builder.Services.Configure<SampleOptions>(context.Configuration);
         }
+
+
     }
 }
